@@ -3,7 +3,6 @@ import '../App.css';
 
 const AddTodo = ({ addTodo }) => {
   const [text, setText] = useState('');
-
   const handleSubmit = (e) => {
     e.preventDefault();
     if (text.trim()) {
