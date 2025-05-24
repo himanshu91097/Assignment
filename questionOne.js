@@ -1,6 +1,5 @@
 function addNumberSum(num, result) {
     const number = {};
-
     for (let i = 0; i < num.length; i++) {
         const arr = result - num[i]; 
 
